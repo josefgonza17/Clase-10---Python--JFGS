@@ -20,4 +20,5 @@ def generar_lista_concompras():
         'Sal': 800
     }
     #Aqui se selecciona aleatoreamente 5 productos de la canasta Básica
-    seleccion = random.sample(list(canasta_basica.items()))
+    seleccion = random.sample(list(canasta_basica.items()), k=5)
+    return seleccion
