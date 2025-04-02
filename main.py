@@ -17,4 +17,3 @@ precios = [precios for _, precios in lista_compras]
 print(precios)
 print("La media aritmetica de la compra es: ", media(precios))
 print("La mediana de la compra es:", mediana(precios))
-
